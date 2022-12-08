@@ -2,9 +2,9 @@ name: Build
 
 on:
   pull_request:
-    branches: [ build ]
+    branches: [ master ]
   push:
-    branches: [ build ]
+    branches: [ master ]
 jobs:
   testing:
     runs-on: ubuntu-latest
