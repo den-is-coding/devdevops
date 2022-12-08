@@ -1,6 +1,6 @@
 import json
 from flask import Flask, request, jsonify
-from flask-mongoengine import MongoEngine
+from flask_mongoengine import MongoEngine
 
 app = Flask(__name__)
 
