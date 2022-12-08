@@ -28,5 +28,5 @@ jobs:
         run:
           python -m pip install --upgrade pip
       - name: starting Hello
-        run: python "./hello.py"
+        run: python "././hello.py"
 
